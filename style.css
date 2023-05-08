@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 250px auto;
+    height: 100vh;
+}
+
+body > * {
+    min-height: 100vh;
+}
+
+nav {
+    color: #000;
+    padding: 20px;
+    border-right: 3px solid orangered;
+}
+
+form {
+    margin: 0;
+}
+
+input {
+    height: 40px;
+    width: 200px;
+}
+
+main {
+    background-color: #ebebeb;
+}
